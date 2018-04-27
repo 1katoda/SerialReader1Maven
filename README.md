@@ -10,7 +10,7 @@ uporabi
 
 ## Run
 uporabi
--->mvn exec
+* -->mvn exec
 
 ### Zahteve
 
@@ -18,8 +18,8 @@ Za delovanje je potrebna rxtx knjiznica.
 /target/lib/
 
 *Datoteki rxtxSerial-2.1.7.dll in rxtxParallel-2.1.7.dll je potrebno namestiti v Maven kot:
-*-->mvn install:install-file -Dfile=target/lib/rxtxSerial-2.1.7.dll -DgroupId=org.rxtx -DartifactId=rxtxSerial  -Dversion=2.1.7 -Dpackaging=dll -DgeneratePom=true
-*-->mvn install:install-file -Dfile=target/lib/rxtxParallel-2.1.7.dll -DgroupId=org.rxtx -DartifactId=rxtxParallel  -Dversion=2.1.7 -Dpackaging=dll -DgeneratePom=true
+* -->mvn install:install-file -Dfile=target/lib/rxtxSerial-2.1.7.dll -DgroupId=org.rxtx -DartifactId=rxtxSerial  -Dversion=2.1.7 -Dpackaging=dll -DgeneratePom=true
+* -->mvn install:install-file -Dfile=target/lib/rxtxParallel-2.1.7.dll -DgroupId=org.rxtx -DartifactId=rxtxParallel  -Dversion=2.1.7 -Dpackaging=dll -DgeneratePom=true
 
 
 Prilozene datoteke se lahko za samostojno delovanje kopirajo:
@@ -29,12 +29,12 @@ Prilozene datoteke se lahko za samostojno delovanje kopirajo:
 
 ## Verzije
 
-*1.1 - preurejeno kot Maven projekt
+* 1.1 - preurejeno kot Maven projekt
 	 - preurejena imena za skladnost z Java naming convention
 	 - uvoz samih knjiznic, namesto celih classov
 	 - metoda updatePorts premaknjena v SR1 class
 
-*1.0 - HelloWorld
+* 1.0 - HelloWorld
 
 
 ## Zgradba
