@@ -5,8 +5,8 @@ Preprost program za serijsko komunikacijo, napisan v jeziku Java.
 ## Build
 
 uporabi
-* [Maven](https://maven.apache.org/) - Dependency Management
--->mvn package
+[Maven](https://maven.apache.org/) - Dependency Management
+* -->mvn package
 
 ## Run
 uporabi
@@ -23,8 +23,8 @@ Za delovanje je potrebna rxtx knjiznica.
 
 
 Prilozene datoteke se lahko za samostojno delovanje kopirajo:
-	rxtx-2.1.7.jar	v	JAVA_HOME\jre\ext
-	rxtxSerial-2.1.7.dll	v	JAVA_HOME\jre
+	* rxtx-2.1.7.jar	v	JAVA_HOME\jre\ext
+	* rxtxSerial-2.1.7.dll	v	JAVA_HOME\jre
 
 
 ## Verzije
@@ -39,7 +39,7 @@ Prilozene datoteke se lahko za samostojno delovanje kopirajo:
 
 ## Zgradba
 
-### SR1.java
+### * SR1.java
 
 	SR1 class uporablja rxtx knjiznico za iskanje in vzpostavitev povezave na serijski port.
 	
@@ -73,7 +73,7 @@ Prilozene datoteke se lahko za samostojno delovanje kopirajo:
 		-firstRun = 1, ce se funkcija klice v inicializaciji, 0 ce se klice kasneje
 		-firstRun = 0 	=>	posodobi PortBox komponente
 		
-### SR1gui.java
+### * SR1gui.java
 
 	Swing GUI za program
 	
